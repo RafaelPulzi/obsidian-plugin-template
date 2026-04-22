@@ -1,0 +1,24 @@
+/*
+  Keep all selectors scoped to your plugin classes.
+  Avoid overriding core Obsidian classes directly.
+*/
+
+.obsidian-plugin-foundation-template__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+}
+
+.obsidian-plugin-foundation-template__preview {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  background: var(--background-primary-alt);
+}
